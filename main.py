@@ -9,7 +9,7 @@ from multiprocessing.pool import ThreadPool as Pool
 
 
 if __name__ == "__main__":
-      '''mylistlink=[]
+      mylistlink=[]
       count=0
       url="https://www.justice.gov/news"
       while count<=777:
@@ -52,7 +52,7 @@ if __name__ == "__main__":
                   f.write(str(mylistlink))
       except:
             print("file already exist")
-            pass'''
+            pass
 
       Extract_Data.crawlData()
 
